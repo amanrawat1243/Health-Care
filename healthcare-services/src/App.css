@@ -1,0 +1,125 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+}
+
+button {
+  margin: 5px 0;
+  padding: 10px;
+
+}
+
+/* App.css */
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="button"] {
+  background-color: #dc3545; 
+}
+
+button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+
+
+
+
+ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 20px 0; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+ul li {
+  padding: 15px; 
+  border-bottom: 1px solid #ddd; 
+  transition: background-color 0.3s; 
+}
+
+
+ul li:last-child {
+  border-bottom: none; }
+
+
+ul li:hover {
+  background-color: #f1f1f1; 
+}
+
+
+ul li h3 {
+  margin: 0; 
+  font-size: 1.2em; 
+  color: #333; 
+}
+
+
+ul li p {
+  margin: 5px 0; 
+  color: #666; 
+}
+
+.edit{
+  margin-right: 10px;
+}
+
+h1 {
+  text-align: center; /* Center the text */
+  margin: 20px 0; /* Optional: add some margin for spacing */
+}
